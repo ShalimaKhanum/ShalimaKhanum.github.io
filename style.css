@@ -37,6 +37,11 @@ body{
     margin-right: 100%;
 }
 
+.card-body {
+    text-align: start;
+    margin-left: -25%;
+}
+
 .card {
     border: none;
 }
@@ -61,7 +66,12 @@ body{
     height: 100%;
     
 }
-
+#statement {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
 
 /* .pt-5, py-5 {
     padding-top: 3rem!important;
@@ -73,7 +83,7 @@ svg.svg-inline--fa {
 }
 
 svg.svg-inline--fa:hover {
-    color: #3b5249!important;
+    color: #535204!important;
     /* height: 150px;
     width: 150; */
     
@@ -104,6 +114,10 @@ svg.svg-inline--fa:hover {
     padding-left: 0;
 }
 
+.grow-icon {
+    color: white;
+}
+
 #contact {
     font-family: 'Kanit', sans-serif;
     text-align: center;
@@ -119,22 +133,28 @@ a:link {
     color: black;
 }
 
-.project {
+.projects {
     padding: 2px 4px;
-    background: #53520462;
-    border-radius: 10px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 15px;
+    background: #92817a;
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 40px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    color: white;
+    color: black;
     
 }
 
 .project-tile {
     transition: all .2s ease-in-out;
 }
+
+.carousel-caption {
+    color: white;
+    font-size: 20px;
+}
+
 
 /* .content-wrap {
     max-width: 950px;
@@ -199,5 +219,5 @@ a:link {
 }
 
 a{
-    color: white;
+    color: black;
 }
