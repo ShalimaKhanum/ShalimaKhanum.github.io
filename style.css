@@ -188,16 +188,15 @@ a:link {
 .navC {
     color: black;
     background-color: white;
-
 }
 
 .navC:hover {
-    background-color: burlywood;
+    background-color: #535204;
 }
 
 
 #experiences a .active {
-    background-color: maroon;
+    background-color: black;
 }
 
 
